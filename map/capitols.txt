@@ -1,0 +1,6 @@
+Charles Town  (2700, 122)
+Fort Louis  (1597, 44)
+Mexico City  (400, 1305)
+Suriname  (5625, 3120)
+Danish West Indies  (4648, 1556)
+Swedish West Indies  (5000, 1792)
