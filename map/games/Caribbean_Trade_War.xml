@@ -1630,19 +1630,19 @@
     <technology>
     </technology>
 
-    <attatchmentList>
-        <attatchment name="relationshipTypeAttachment" attatchTo="Friendly" javaClass="games.strategy.triplea.attatchments.RelationshipTypeAttachment" type="relationship">
+    <attachmentList>
+        <attachment name="relationshipTypeAttachment" attachTo="Friendly" javaClass="games.strategy.triplea.attachments.RelationshipTypeAttachment" type="relationship">
             <option name="archeType" value="allied"/>
-        </attatchment>
-        <attatchment name="relationshipTypeAttachment" attatchTo="Hostile" javaClass="games.strategy.triplea.attatchments.RelationshipTypeAttachment" type="relationship">
+        </attachment>
+        <attachment name="relationshipTypeAttachment" attachTo="Hostile" javaClass="games.strategy.triplea.attachments.RelationshipTypeAttachment" type="relationship">
             <option name="archeType" value="war"/>
-        </attatchment>
-        <attatchment name="relationshipTypeAttachment" attatchTo="Neutral" javaClass="games.strategy.triplea.attatchments.RelationshipTypeAttachment" type="relationship">
+        </attachment>
+        <attachment name="relationshipTypeAttachment" attachTo="Neutral" javaClass="games.strategy.triplea.attachments.RelationshipTypeAttachment" type="relationship">
             <option name="archeType" value="neutral"/>
             <option name="canMoveLandUnitsOverOwnedLand" value="true"/>
-        </attatchment>
+        </attachment>
 
-        <attatchment name="unitAttatchment" attatchTo="Canoe" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        <attachment name="unitAttachment" attachTo="Canoe" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="1"/>
             <option name="defense" value="1"/>
             <option name="isSea" value="true"/>
@@ -1650,14 +1650,14 @@
             <option name="movement" value="1"/>
             <option name="transportCapacity" value="1"/>
             <option name="maxBuiltPerPlayer" value="25"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Admiral" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Admiral" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="1"/>
             <option name="defense" value="1"/>
             <option name="isSea" value="true"/>
             <option name="movement" value="4"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Battleship" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Battleship" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="3"/>
             <option name="canBombard" value="true"/>
             <option name="defense" value="3"/>
@@ -1666,23 +1666,23 @@
             <option name="hitPoints" value="2"/>
             <option name="movement" value="3"/>
             <option name="transportCapacity" value="6"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Cannon" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Cannon" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="artillery" value="true"/>
             <option name="attack" value="2"/>
             <option name="defense" value="2"/>
             <option name="movement" value="1"/>
             <option name="transportCost" value="3"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Cavalry" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Cavalry" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="artillerySupportable" value="true"/>
             <option name="attack" value="3"/>
             <option name="canBlitz" value="true"/>
             <option name="defense" value="1"/>
             <option name="movement" value="2"/>
             <option name="transportCost" value="3"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Corvette" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Corvette" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="2"/>
             <option name="canBombard" value="true"/>
             <option name="defense" value="3"/>
@@ -1690,15 +1690,15 @@
             <option name="isDestroyer" value="true"/>
             <option name="movement" value="3"/>
             <option name="transportCapacity" value="2"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Flute" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Flute" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="1"/>
             <option name="defense" value="1"/>
             <option name="isSea" value="true"/>
             <option name="movement" value="2"/>
             <option name="transportCapacity" value="5"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Fortress" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Fortress" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="isInfrastructure" value="true"/>
             <option name="isConstruction" value="true"/>
             <option name="constructionType" value="Large Defensive Building"/>
@@ -1706,8 +1706,8 @@
             <option name="maxConstructionsPerTypePerTerr" value="1"/>
             <option name="defense" value="0"/>
             <option name="movement" value="0"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Frigate" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Frigate" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="3"/>
             <option name="canBombard" value="true"/>
             <option name="defense" value="2"/>
@@ -1715,85 +1715,85 @@
             <option name="isDestroyer" value="true"/>
             <option name="movement" value="3"/>
             <option name="transportCapacity" value="4"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Galleon" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Galleon" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="2"/>
             <option name="defense" value="2"/>
             <option name="isSea" value="true"/>
             <option name="movement" value="2"/>
             <option name="transportCapacity" value="9"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="General" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="General" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="1"/>
             <option name="canBlitz" value="true"/>
             <option name="defense" value="1"/>
             <option name="movement" value="2"/>
             <option name="transportCost" value="1"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Gunboat" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Gunboat" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="1"/>
             <option name="defense" value="1"/>
             <option name="isSea" value="true"/>
             <option name="movement" value="1"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Horse-Artillery" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Horse-Artillery" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="artillery" value="true"/>
             <option name="attack" value="2"/>
             <option name="canBlitz" value="true"/>
             <option name="defense" value="2"/>
             <option name="movement" value="2"/>
             <option name="transportCost" value="3"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Indian" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Indian" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="1"/>
             <option name="defense" value="1"/>
             <option name="movement" value="2"/>
             <option name="transportCost" value="1"/>
             <option name="maxBuiltPerPlayer" value="50"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Indian-Scout" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Indian-Scout" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="1"/>
             <option name="defense" value="1"/>
             <option name="movement" value="2"/>
             <option name="transportCost" value="1"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Infantry" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Infantry" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="artillerySupportable" value="true"/>
             <option name="attack" value="3"/>
             <option name="defense" value="3"/>
             <option name="movement" value="1"/>
             <option name="transportCost" value="2"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Irregular" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Irregular" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="artillerySupportable" value="true"/>
             <option name="attack" value="2"/>
             <option name="defense" value="1"/>
             <option name="movement" value="2"/>
             <option name="transportCost" value="3"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Marine" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Marine" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="artillerySupportable" value="true"/>
             <option name="attack" value="2"/>
             <option name="defense" value="1"/>
             <option name="movement" value="1"/>
             <option name="isMarine" value="1"/>
             <option name="transportCost" value="1"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Militia" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Militia" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="artillerySupportable" value="true"/>
             <option name="attack" value="1"/>
             <option name="defense" value="2"/>
             <option name="movement" value="1"/>
             <option name="transportCost" value="3"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Mortar" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Mortar" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="artillery" value="true"/>
             <option name="attack" value="3"/>
             <option name="defense" value="1"/>
             <option name="movement" value="1"/>
             <option name="transportCost" value="3"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Outpost" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Outpost" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="isInfrastructure" value="true"/>
             <option name="isConstruction" value="true"/>
             <option name="constructionType" value="Small Defensive Building"/>
@@ -1802,739 +1802,739 @@
             <option name="defense" value="0"/>
             <option name="movement" value="0"/>
             <option name="destroyedWhenCapturedBy" value="AI-Indians"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Pirate" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Pirate" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="2"/>
             <option name="defense" value="1"/>
             <option name="movement" value="1"/>
             <option name="transportCost" value="1"/>
             <option name="maxBuiltPerPlayer" value="25"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Pirate-Captain" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Pirate-Captain" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="1"/>
             <option name="defense" value="1"/>
             <option name="isSea" value="true"/>
             <option name="movement" value="4"/>
             <option name="maxBuiltPerPlayer" value="5"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Sloop" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Sloop" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="2"/>
             <option name="defense" value="1"/>
             <option name="isSea" value="true"/>
             <option name="isSub" value="true"/>
             <option name="movement" value="4"/>
             <option name="transportCapacity" value="1"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Town" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Town" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="isInfrastructure" value="true"/>
             <option name="isFactory" value="true"/>
             <option name="canBeDamaged" value="false"/>
             <option name="movement" value="0"/>
             <option name="destroyedWhenCapturedBy" value="AI-Indians"/>
-        </attatchment>
-        <attatchment name="unitAttatchment" attatchTo="Village" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Village" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="isInfrastructure" value="true"/>
             <option name="isFactory" value="true"/>
             <option name="movement" value="0"/>
             <option name="destroyedWhenCapturedBy" value="French:English:Dutch:Spanish:Danish:Swedish:AI-Pirates"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Abaco" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Abaco" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="AI-Indians"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Abaham" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Abaham" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="2"/>
             <option name="originalOwner" value="French"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Acapulco" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Acapulco" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="Spanish"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Alacranes" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Alacranes" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="AI-Indians"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Andros" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Andros" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="AI-Indians"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Anguilla" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Anguilla" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="2"/>
             <option name="originalOwner" value="English"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Antego" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Antego" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="2"/>
             <option name="originalOwner" value="English"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Apalaxy Land" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Apalaxy Land" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="English"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Aromaia" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Aromaia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="AI-Indians"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Aruba" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Aruba" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="Dutch"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Bahama Island" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Bahama Island" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="AI-Indians"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Barbados" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Barbados" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="3"/>
             <option name="originalOwner" value="English"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Barbuda" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Barbuda" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="2"/>
             <option name="originalOwner" value="English"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Baxos" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Baxos" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="AI-Indians"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Low Land" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Low Land" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="2"/>
             <option name="originalOwner" value="French"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Beef River" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Beef River" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="3"/>
             <option name="originalOwner" value="French"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Beeve Country" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Beeve Country" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="AI-Indians"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Berbice" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Berbice" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="Dutch"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Bluefields" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Bluefields" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="3"/>
             <option name="originalOwner" value="AI-Pirates"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Bonaire" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Bonaire" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="Dutch"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="New Granada North East" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="New Granada North East" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="Spanish"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Caicos Bank" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Caicos Bank" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="6"/>
             <option name="capital" value="AI-Pirates"/>
             <option name="originalOwner" value="AI-Pirates"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Caouila" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Caouila" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="AI-Indians"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Caracos" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Caracos" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="AI-Indians"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Cartagena" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Cartagena" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="AI-Indians"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Castilla" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Castilla" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="AI-Indians"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Catt" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Catt" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="4"/>
             <option name="originalOwner" value="AI-Pirates"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Choco" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Choco" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="AI-Indians"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Comanche Land" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Comanche Land" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="AI-Indians"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Cooked Island" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Cooked Island" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="AI-Indians"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Coro" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Coro" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="Dutch"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Costa Baxa" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Costa Baxa" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="AI-Indians"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Costarica" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Costarica" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="AI-Indians"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Coyba" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Coyba" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="AI-Indians"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Cozumel" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Cozumel" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="AI-Indians"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Cuba East" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Cuba East" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="2"/>
             <option name="originalOwner" value="Spanish"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Cuba West" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Cuba West" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="5"/>
             <option name="victoryCity" value="1"/>
             <option name="originalOwner" value="Spanish"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Curacao" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Curacao" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="4"/>
             <option name="victoryCity" value="1"/>
             <option name="originalOwner" value="Dutch"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Danish West Indies" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Danish West Indies" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="20"/>
             <option name="victoryCity" value="1"/>
             <option name="capital" value="Danish"/>
             <option name="originalOwner" value="Danish"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Panama" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Panama" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="AI-Indians"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Dominica" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Dominica" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="2"/>
             <option name="originalOwner" value="English"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Dry Tortugas" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Dry Tortugas" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="AI-Indians"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Montes de Opon" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Montes de Opon" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="AI-Indians"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="El Rosal" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="El Rosal" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="AI-Indians"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Eleuthera" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Eleuthera" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="2"/>
             <option name="originalOwner" value="AI-Indians"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Exuma" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Exuma" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="AI-Indians"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Florida East" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Florida East" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="AI-Indians"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Florida Keys" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Florida Keys" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="AI-Indians"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Florida Mid" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Florida Mid" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="AI-Indians"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Florida South" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Florida South" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="3"/>
             <option name="originalOwner" value="AI-Indians"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Florida West" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Florida West" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="AI-Indians"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Fort Kyk-Over-Al" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Fort Kyk-Over-Al" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="2"/>
             <option name="originalOwner" value="Dutch"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Fort Louis" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Fort Louis" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="20"/>
             <option name="victoryCity" value="1"/>
             <option name="capital" value="French"/>
             <option name="originalOwner" value="French"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Foul Island" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Foul Island" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="Dutch"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="French Hispaniola" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="French Hispaniola" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="6"/>
             <option name="victoryCity" value="1"/>
             <option name="originalOwner" value="French"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Granada" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Granada" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="3"/>
             <option name="originalOwner" value="French"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Granadillos" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Granadillos" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="AI-Indians"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Grand Cayman" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Grand Cayman" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="4"/>
             <option name="originalOwner" value="AI-Pirates"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Guanabo" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Guanabo" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="French"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Guatimala" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Guatimala" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="Spanish"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Guayana" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Guayana" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="AI-Indians"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Casipa Lake" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Casipa Lake" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="AI-Indians"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Hayen Islands" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Hayen Islands" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="AI-Indians"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Heneago" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Heneago" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="2"/>
             <option name="originalOwner" value="AI-Indians"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Honduras Mid" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Honduras Mid" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="AI-Indians"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Honduras West" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Honduras West" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="AI-Indians"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Ilhados" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Ilhados" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="AI-Indians"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Jamaica" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Jamaica" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="4"/>
             <option name="victoryCity" value="1"/>
             <option name="originalOwner" value="English"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Kings Island" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Kings Island" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="AI-Indians"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="La Tortuga" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="La Tortuga" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="2"/>
             <option name="originalOwner" value="English"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Lamanay" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Lamanay" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="AI-Indians"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Les Temerlouens" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Les Temerlouens" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="AI-Indians"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Little Cayman" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Little Cayman" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="3"/>
             <option name="originalOwner" value="AI-Pirates"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Long Island" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Long Island" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="AI-Indians"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Louisiana Main" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Louisiana Main" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="5"/>
             <option name="originalOwner" value="French"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Louisiana West" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Louisiana West" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="2"/>
             <option name="originalOwner" value="Spanish"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Maguana" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Maguana" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="AI-Indians"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Margarita" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Margarita" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="Spanish"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Martenica" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Martenica" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="3"/>
             <option name="originalOwner" value="French"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Meewen Islands" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Meewen Islands" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="AI-Indians"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Yucatan North" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Yucatan North" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="3"/>
             <option name="originalOwner" value="AI-Indians"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Mexico City" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Mexico City" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="12"/>
             <option name="victoryCity" value="1"/>
             <option name="capital" value="Spanish"/>
             <option name="originalOwner" value="Spanish"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Mobile" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Mobile" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="4"/>
             <option name="originalOwner" value="French"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Venezuela North" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Venezuela North" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="AI-Indians"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Moskitos Land" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Moskitos Land" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="capital" value="AI-Indians"/>
             <option name="originalOwner" value="AI-Indians"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Muspa Islands" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Muspa Islands" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="AI-Indians"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Negrillos" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Negrillos" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="AI-Indians"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Nevis" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Nevis" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="2"/>
             <option name="originalOwner" value="English"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="New Andalusia" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="New Andalusia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="AI-Indians"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="New Galicia" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="New Galicia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="2"/>
             <option name="originalOwner" value="Spanish"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="New Granada South East" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="New Granada South East" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="Spanish"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="New Granada South West" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="New Granada South West" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="Spanish"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="New Leon" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="New Leon" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="Spanish"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="New Mexico" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="New Mexico" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="AI-Indians"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="New Providence" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="New Providence" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="2"/>
             <option name="originalOwner" value="English"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="New Spain" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="New Spain" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="Spanish"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Nicaragua" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Nicaragua" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="AI-Indians"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Palaxy" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Palaxy" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="French"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Panuco" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Panuco" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="Spanish"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Paria" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Paria" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="AI-Indians"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Pasquaro Lake" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Pasquaro Lake" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="AI-Indians"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Pensacola" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Pensacola" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="Spanish"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Perl Island" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Perl Island" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="AI-Indians"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Peten Lake" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Peten Lake" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="Spanish"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Popayan East" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Popayan East" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="AI-Indians"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Popayan West" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Popayan West" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="AI-Indians"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Charles Town" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Charles Town" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="20"/>
             <option name="victoryCity" value="1"/>
             <option name="capital" value="English"/>
             <option name="originalOwner" value="English"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Porto Rico" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Porto Rico" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="3"/>
             <option name="originalOwner" value="Spanish"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Providence" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Providence" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="AI-Pirates"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Quita Zuno" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Quita Zuno" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="AI-Indians"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Quito Land" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Quito Land" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="AI-Indians"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Ruatan" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Ruatan" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="AI-Pirates"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="SZ23" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="SZ23" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="3"/>
             <option name="victoryCity" value="1"/>
             <option name="originalOwner" value="English"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="SZ29" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="SZ29" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="3"/>
             <option name="victoryCity" value="1"/>
             <option name="originalOwner" value="French"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="SZ34" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="SZ34" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="3"/>
             <option name="victoryCity" value="1"/>
             <option name="originalOwner" value="French"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="SZ42" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="SZ42" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="3"/>
             <option name="victoryCity" value="1"/>
             <option name="originalOwner" value="Spanish"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="SZ44" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="SZ44" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="6"/>
             <option name="victoryCity" value="1"/>
             <option name="originalOwner" value="Danish"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="SZ47" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="SZ47" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="3"/>
             <option name="victoryCity" value="1"/>
             <option name="originalOwner" value="Spanish"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="SZ55" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="SZ55" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="6"/>
             <option name="victoryCity" value="1"/>
             <option name="originalOwner" value="Swedish"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="SZ72" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="SZ72" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="3"/>
             <option name="victoryCity" value="1"/>
             <option name="originalOwner" value="English"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="SZ78" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="SZ78" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="3"/>
             <option name="victoryCity" value="1"/>
             <option name="originalOwner" value="Dutch"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="SZ86" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="SZ86" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="3"/>
             <option name="victoryCity" value="1"/>
             <option name="originalOwner" value="Dutch"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Saint Bartolameo" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Saint Bartolameo" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="2"/>
             <option name="originalOwner" value="French"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Saint Lucia" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Saint Lucia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="2"/>
             <option name="originalOwner" value="French"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Saint Martin" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Saint Martin" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="Dutch"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Saint Marys" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Saint Marys" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="3"/>
             <option name="originalOwner" value="English"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Saint Statia" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Saint Statia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="Dutch"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Saint Vincent" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Saint Vincent" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="2"/>
             <option name="originalOwner" value="English"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="San Andero" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="San Andero" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="AI-Pirates"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="San Millan" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="San Millan" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="AI-Indians"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="New Granada North West" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="New Granada North West" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="3"/>
             <option name="originalOwner" value="Spanish"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Serrana North" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Serrana North" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="AI-Indians"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Serrana South" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Serrana South" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="AI-Indians"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Serranilha East" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Serranilha East" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="AI-Indians"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Serranilha South" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Serranilha South" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="AI-Indians"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Serranilha West" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Serranilha West" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="AI-Indians"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Soconusco" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Soconusco" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="Spanish"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Spanish Hispaniola" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Spanish Hispaniola" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="4"/>
             <option name="originalOwner" value="Spanish"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Suriname" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Suriname" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="5"/>
             <option name="victoryCity" value="1"/>
             <option name="capital" value="Dutch"/>
             <option name="originalOwner" value="Dutch"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Swedish West Indies" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Swedish West Indies" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="20"/>
             <option name="victoryCity" value="1"/>
             <option name="capital" value="Swedish"/>
             <option name="originalOwner" value="Swedish"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Tabago" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Tabago" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="2"/>
             <option name="originalOwner" value="English"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Tabasco" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Tabasco" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="Spanish"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Bayogoula" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Bayogoula" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="3"/>
             <option name="originalOwner" value="French"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Tlascala" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Tlascala" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="2"/>
             <option name="originalOwner" value="Spanish"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Tortuga" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Tortuga" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="2"/>
             <option name="originalOwner" value="AI-Pirates"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Treasure Island" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Treasure Island" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="AI-Indians"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Trinidad" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Trinidad" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="2"/>
             <option name="originalOwner" value="Spanish"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Honduras East" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Honduras East" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="AI-Indians"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Tryangles" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Tryangles" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="AI-Indians"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Turks Islands" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Turks Islands" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="3"/>
             <option name="originalOwner" value="AI-Pirates"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Utila" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Utila" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="AI-Pirates"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Venezuela East" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Venezuela East" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="AI-Indians"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Venezuela West" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Venezuela West" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="AI-Indians"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Veragua" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Veragua" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="3"/>
             <option name="originalOwner" value="AI-Pirates"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Viciosas Islands" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Viciosas Islands" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="AI-Indians"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Watlings Island" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Watlings Island" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="2"/>
             <option name="originalOwner" value="AI-Pirates"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Yucatan Mid" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Yucatan Mid" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="AI-Indians"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Yucatan South" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Yucatan South" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="Spanish"/>
-        </attatchment>
-        <attatchment name="territoryAttatchment" attatchTo="Zaratan" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Zaratan" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="1"/>
             <option name="originalOwner" value="AI-Indians"/>
-        </attatchment>
-        <attatchment name="playerAttatchment" attatchTo="French" javaClass="games.strategy.triplea.attatchments.PlayerAttachment" type="player">
+        </attachment>
+        <attachment name="playerAttachment" attachTo="French" javaClass="games.strategy.triplea.attachments.PlayerAttachment" type="player">
             <option name="retainCapitalNumber" value="0"/>
             <option name="retainCapitalProduceNumber" value="0"/>
-        </attatchment>
-        <attatchment name="playerAttatchment" attatchTo="English" javaClass="games.strategy.triplea.attatchments.PlayerAttachment" type="player">
+        </attachment>
+        <attachment name="playerAttachment" attachTo="English" javaClass="games.strategy.triplea.attachments.PlayerAttachment" type="player">
             <option name="retainCapitalNumber" value="0"/>
             <option name="retainCapitalProduceNumber" value="0"/>
-        </attatchment>
-        <attatchment name="playerAttatchment" attatchTo="Dutch" javaClass="games.strategy.triplea.attatchments.PlayerAttachment" type="player">
+        </attachment>
+        <attachment name="playerAttachment" attachTo="Dutch" javaClass="games.strategy.triplea.attachments.PlayerAttachment" type="player">
             <option name="retainCapitalNumber" value="0"/>
             <option name="retainCapitalProduceNumber" value="0"/>
-        </attatchment>
-        <attatchment name="playerAttatchment" attatchTo="Spanish" javaClass="games.strategy.triplea.attatchments.PlayerAttachment" type="player">
+        </attachment>
+        <attachment name="playerAttachment" attachTo="Spanish" javaClass="games.strategy.triplea.attachments.PlayerAttachment" type="player">
             <option name="retainCapitalNumber" value="0"/>
             <option name="retainCapitalProduceNumber" value="0"/>
-        </attatchment>
-        <attatchment name="playerAttatchment" attatchTo="Danish" javaClass="games.strategy.triplea.attatchments.PlayerAttachment" type="player">
+        </attachment>
+        <attachment name="playerAttachment" attachTo="Danish" javaClass="games.strategy.triplea.attachments.PlayerAttachment" type="player">
             <option name="retainCapitalNumber" value="0"/>
             <option name="retainCapitalProduceNumber" value="0"/>
-        </attatchment>
-        <attatchment name="playerAttatchment" attatchTo="Swedish" javaClass="games.strategy.triplea.attatchments.PlayerAttachment" type="player">
+        </attachment>
+        <attachment name="playerAttachment" attachTo="Swedish" javaClass="games.strategy.triplea.attachments.PlayerAttachment" type="player">
             <option name="retainCapitalNumber" value="0"/>
             <option name="retainCapitalProduceNumber" value="0"/>
-        </attatchment>
-        <attatchment name="playerAttatchment" attatchTo="AI-Pirates" javaClass="games.strategy.triplea.attatchments.PlayerAttachment" type="player">
+        </attachment>
+        <attachment name="playerAttachment" attachTo="AI-Pirates" javaClass="games.strategy.triplea.attachments.PlayerAttachment" type="player">
             <option name="retainCapitalNumber" value="0"/>
             <option name="retainCapitalProduceNumber" value="0"/>
-        </attatchment>
-        <attatchment name="playerAttatchment" attatchTo="AI-Indians" javaClass="games.strategy.triplea.attatchments.PlayerAttachment" type="player">
+        </attachment>
+        <attachment name="playerAttachment" attachTo="AI-Indians" javaClass="games.strategy.triplea.attachments.PlayerAttachment" type="player">
             <option name="retainCapitalNumber" value="0"/>
             <option name="retainCapitalProduceNumber" value="0"/>
-        </attatchment>
-        <attatchment name="supportAttachmentOutpost" attatchTo="Outpost" javaClass="games.strategy.triplea.attatchments.UnitSupportAttachment" type="unitType">
+        </attachment>
+        <attachment name="supportAttachmentOutpost" attachTo="Outpost" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
             <option name="unitType" value="Indian-Scout:Militia:Irregular:Marine:Infantry:Cavalry:Horse-Artillery:Cannon:Mortar:General:Indian:Pirate"/>
             <option name="faction" value="allied"/>
             <option name="side" value="defence"/>
@@ -2543,8 +2543,8 @@
             <option name="number" value="5"/>
             <option name="bonusType" value="Wall"/>
             <option name="players" value="French:English:Dutch:Spanish:Danish:Swedish:AI-Pirates"/>
-        </attatchment>
-        <attatchment name="supportAttachmentFortress" attatchTo="Fortress" javaClass="games.strategy.triplea.attatchments.UnitSupportAttachment" type="unitType">
+        </attachment>
+        <attachment name="supportAttachmentFortress" attachTo="Fortress" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
             <option name="unitType" value="Indian-Scout:Militia:Irregular:Marine:Infantry:Cavalry:Horse-Artillery:Cannon:Mortar:General:Indian:Pirate"/>
             <option name="faction" value="allied"/>
             <option name="side" value="defence"/>
@@ -2553,8 +2553,8 @@
             <option name="number" value="10"/>
             <option name="bonusType" value="Wall"/>
             <option name="players" value="French:English:Dutch:Spanish:Danish:Swedish:AI-Pirates"/>
-        </attatchment>
-        <attatchment name="supportAttachmentGeneral" attatchTo="General" javaClass="games.strategy.triplea.attatchments.UnitSupportAttachment" type="unitType">
+        </attachment>
+        <attachment name="supportAttachmentGeneral" attachTo="General" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
             <option name="unitType" value="Indian-Scout:Militia:Irregular:Marine:Infantry:Cavalry:Horse-Artillery:Cannon:Mortar:Indian:Pirate"/>
             <option name="faction" value="allied"/>
             <option name="side" value="offence:defence"/>
@@ -2563,8 +2563,8 @@
             <option name="number" value="10"/>
             <option name="bonusType" value="Officer"/>
             <option name="players" value="French:English:Dutch:Spanish:Danish:Swedish"/>
-        </attatchment>
-        <attatchment name="supportAttachmentAdmiral" attatchTo="Admiral" javaClass="games.strategy.triplea.attatchments.UnitSupportAttachment" type="unitType">
+        </attachment>
+        <attachment name="supportAttachmentAdmiral" attachTo="Admiral" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
             <option name="unitType" value="Gunboat:Sloop:Flute:Galleon:Corvette:Frigate:Battleship:Canoe"/>
             <option name="faction" value="allied"/>
             <option name="side" value="offence:defence"/>
@@ -2573,8 +2573,8 @@
             <option name="number" value="10"/>
             <option name="bonusType" value="Officer"/>
             <option name="players" value="French:English:Dutch:Spanish:Danish:Swedish"/>
-        </attatchment>
-        <attatchment name="supportAttachmentPirate-Captain" attatchTo="Pirate-Captain" javaClass="games.strategy.triplea.attatchments.UnitSupportAttachment" type="unitType">
+        </attachment>
+        <attachment name="supportAttachmentPirate-Captain" attachTo="Pirate-Captain" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
             <option name="unitType" value="Gunboat:Sloop:Flute:Galleon:Corvette:Frigate:Battleship"/>
             <option name="faction" value="allied"/>
             <option name="side" value="offence:defence"/>
@@ -2583,8 +2583,8 @@
             <option name="number" value="5"/>
             <option name="bonusType" value="Officer"/>
             <option name="players" value="AI-Pirates"/>
-        </attatchment>
-        <attatchment name="supportAttachmentIndian-Scout" attatchTo="Indian-Scout" javaClass="games.strategy.triplea.attatchments.UnitSupportAttachment" type="unitType">
+        </attachment>
+        <attachment name="supportAttachmentIndian-Scout" attachTo="Indian-Scout" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
             <option name="unitType" value="Militia:Irregular:Marine:Infantry:Cavalry:Horse-Artillery:Cannon:Mortar:Indian:Pirate"/>
             <option name="faction" value="allied"/>
             <option name="side" value="offence"/>
@@ -2593,33 +2593,33 @@
             <option name="number" value="3"/>
             <option name="bonusType" value="Scout support"/>
             <option name="players" value="French:English:Dutch:Spanish:Danish:Swedish"/>
-        </attatchment>
-        <attatchment name="conditionAttachmentFrenchF1" attatchTo="French" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+        </attachment>
+        <attachment name="conditionAttachmentFrenchF1" attachTo="French" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
             <option name="turns" value="3"/>
-        </attatchment>
-        <attatchment name="triggerAttachmentFrenchFleet1" attatchTo="French" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+        </attachment>
+        <attachment name="triggerAttachmentFrenchFleet1" attachTo="French" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentFrenchF1"/>
             <option name="when" value="before:FrenchPlace"/>
             <option name="placement" value="2:SZ29:Corvette"/>
             <option name="placement" value="1:SZ29:Frigate"/>
             <option name="notification" value="FrenchFleet1"/>
             <option name="uses" value="1"/>
-        </attatchment>
-        <attatchment name="conditionAttachmentFrenchF2" attatchTo="French" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+        </attachment>
+        <attachment name="conditionAttachmentFrenchF2" attachTo="French" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
             <option name="turns" value="6"/>
-        </attatchment>
-        <attatchment name="triggerAttachmentFrenchFleet2" attatchTo="French" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+        </attachment>
+        <attachment name="triggerAttachmentFrenchFleet2" attachTo="French" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentFrenchF2"/>
             <option name="when" value="before:FrenchPlace"/>
             <option name="placement" value="3:SZ29:Corvette"/>
             <option name="placement" value="2:SZ29:Frigate"/>
             <option name="notification" value="FrenchFleet2"/>
             <option name="uses" value="1"/>
-        </attatchment>
-        <attatchment name="conditionAttachmentFrenchF3" attatchTo="French" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+        </attachment>
+        <attachment name="conditionAttachmentFrenchF3" attachTo="French" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
             <option name="turns" value="9"/>
-        </attatchment>
-        <attatchment name="triggerAttachmentFrenchFleet3" attatchTo="French" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+        </attachment>
+        <attachment name="triggerAttachmentFrenchFleet3" attachTo="French" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentFrenchF3"/>
             <option name="when" value="before:FrenchPlace"/>
             <option name="placement" value="4:SZ29:Corvette"/>
@@ -2627,11 +2627,11 @@
             <option name="placement" value="1:SZ29:Battleship"/>
             <option name="notification" value="FrenchFleet3"/>
             <option name="uses" value="1"/>
-        </attatchment>
-        <attatchment name="conditionAttachmentFrenchF4" attatchTo="French" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+        </attachment>
+        <attachment name="conditionAttachmentFrenchF4" attachTo="French" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
             <option name="turns" value="12"/>
-        </attatchment>
-        <attatchment name="triggerAttachmentFrenchFleet4" attatchTo="French" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+        </attachment>
+        <attachment name="triggerAttachmentFrenchFleet4" attachTo="French" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentFrenchF4"/>
             <option name="when" value="before:FrenchPlace"/>
             <option name="placement" value="5:SZ29:Corvette"/>
@@ -2640,66 +2640,66 @@
             <option name="placement" value="1:SZ29:Admiral"/>
             <option name="notification" value="FrenchFleet4"/>
             <option name="uses" value="1"/>
-        </attatchment>
-        <attatchment name="conditionAttachmentFrenchT1" attatchTo="French" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+        </attachment>
+        <attachment name="conditionAttachmentFrenchT1" attachTo="French" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
             <option name="turns" value="5"/>
-        </attatchment>
-        <attatchment name="triggerAttachmentFrenchTroops1" attatchTo="French" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+        </attachment>
+        <attachment name="triggerAttachmentFrenchTroops1" attachTo="French" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentFrenchT1"/>
             <option name="when" value="before:FrenchPlace"/>
             <option name="placement" value="5:Fort Louis:Marine"/>
             <option name="placement" value="1:SZ33:Flute"/>
             <option name="notification" value="FrenchTroops1"/>
             <option name="uses" value="1"/>
-        </attatchment>
-        <attatchment name="conditionAttachmentFrenchG1" attatchTo="French" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+        </attachment>
+        <attachment name="conditionAttachmentFrenchG1" attachTo="French" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
             <option name="turns" value="8"/>
-        </attatchment>
-        <attatchment name="triggerAttachmentFrenchGold1" attatchTo="French" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+        </attachment>
+        <attachment name="triggerAttachmentFrenchGold1" attachTo="French" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentFrenchG1"/>
             <option name="when" value="before:FrenchPlace"/>
             <option name="resource" value="PUs"/>
             <option name="resourceCount" value="50"/>
             <option name="notification" value="FrenchGold1"/>
             <option name="uses" value="1"/>
-        </attatchment>
-        <attatchment name="conditionAttachmentFrenchG2" attatchTo="French" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+        </attachment>
+        <attachment name="conditionAttachmentFrenchG2" attachTo="French" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
             <option name="turns" value="11"/>
-        </attatchment>
-        <attatchment name="triggerAttachmentFrenchGold2" attatchTo="French" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+        </attachment>
+        <attachment name="triggerAttachmentFrenchGold2" attachTo="French" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentFrenchG2"/>
             <option name="when" value="before:FrenchPlace"/>
             <option name="resource" value="PUs"/>
             <option name="resourceCount" value="100"/>
             <option name="notification" value="FrenchGold2"/>
             <option name="uses" value="1"/>
-        </attatchment>
-        <attatchment name="conditionAttachmentEnglishF1" attatchTo="English" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+        </attachment>
+        <attachment name="conditionAttachmentEnglishF1" attachTo="English" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
             <option name="turns" value="3"/>
-        </attatchment>
-        <attatchment name="triggerAttachmentEnglishFleet1" attatchTo="English" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+        </attachment>
+        <attachment name="triggerAttachmentEnglishFleet1" attachTo="English" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentEnglishF1"/>
             <option name="when" value="before:EnglishPlace"/>
             <option name="placement" value="2:SZ23:Corvette"/>
             <option name="placement" value="1:SZ23:Frigate"/>
             <option name="notification" value="EnglishFleet1"/>
             <option name="uses" value="1"/>
-        </attatchment>
-        <attatchment name="conditionAttachmentEnglishF2" attatchTo="English" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+        </attachment>
+        <attachment name="conditionAttachmentEnglishF2" attachTo="English" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
             <option name="turns" value="6"/>
-        </attatchment>
-        <attatchment name="triggerAttachmentEnglishFleet2" attatchTo="English" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+        </attachment>
+        <attachment name="triggerAttachmentEnglishFleet2" attachTo="English" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentEnglishF2"/>
             <option name="when" value="before:EnglishPlace"/>
             <option name="placement" value="3:SZ23:Corvette"/>
             <option name="placement" value="2:SZ23:Frigate"/>
             <option name="notification" value="EnglishFleet2"/>
             <option name="uses" value="1"/>
-        </attatchment>
-        <attatchment name="conditionAttachmentEnglishF3" attatchTo="English" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+        </attachment>
+        <attachment name="conditionAttachmentEnglishF3" attachTo="English" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
             <option name="turns" value="9"/>
-        </attatchment>
-        <attatchment name="triggerAttachmentEnglishFleet3" attatchTo="English" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+        </attachment>
+        <attachment name="triggerAttachmentEnglishFleet3" attachTo="English" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentEnglishF3"/>
             <option name="when" value="before:EnglishPlace"/>
             <option name="placement" value="4:SZ23:Corvette"/>
@@ -2707,11 +2707,11 @@
             <option name="placement" value="1:SZ23:Battleship"/>
             <option name="notification" value="EnglishFleet3"/>
             <option name="uses" value="1"/>
-        </attatchment>
-        <attatchment name="conditionAttachmentEnglishF4" attatchTo="English" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+        </attachment>
+        <attachment name="conditionAttachmentEnglishF4" attachTo="English" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
             <option name="turns" value="12"/>
-        </attatchment>
-        <attatchment name="triggerAttachmentEnglishFleet4" attatchTo="English" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+        </attachment>
+        <attachment name="triggerAttachmentEnglishFleet4" attachTo="English" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentEnglishF4"/>
             <option name="when" value="before:EnglishPlace"/>
             <option name="placement" value="5:SZ23:Corvette"/>
@@ -2720,65 +2720,65 @@
             <option name="placement" value="1:SZ23:Admiral"/>
             <option name="notification" value="EnglishFleet4"/>
             <option name="uses" value="1"/>
-        </attatchment>
-        <attatchment name="conditionAttachmentEnglishT1" attatchTo="English" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+        </attachment>
+        <attachment name="conditionAttachmentEnglishT1" attachTo="English" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
             <option name="turns" value="5"/>
-        </attatchment>
-        <attatchment name="triggerAttachmentEnglishTroops1" attatchTo="English" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+        </attachment>
+        <attachment name="triggerAttachmentEnglishTroops1" attachTo="English" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentEnglishT1"/>
             <option name="when" value="before:EnglishPlace"/>
             <option name="placement" value="7:Charles Town:Militia"/>
             <option name="notification" value="EnglishTroops1"/>
             <option name="uses" value="1"/>
-        </attatchment>
-        <attatchment name="conditionAttachmentEnglishG1" attatchTo="English" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+        </attachment>
+        <attachment name="conditionAttachmentEnglishG1" attachTo="English" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
             <option name="turns" value="8"/>
-        </attatchment>
-        <attatchment name="triggerAttachmentEnglishGold1" attatchTo="English" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+        </attachment>
+        <attachment name="triggerAttachmentEnglishGold1" attachTo="English" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentEnglishG1"/>
             <option name="when" value="before:EnglishPlace"/>
             <option name="resource" value="PUs"/>
             <option name="resourceCount" value="50"/>
             <option name="notification" value="EnglishGold1"/>
             <option name="uses" value="1"/>
-        </attatchment>
-        <attatchment name="conditionAttachmentEnglishG2" attatchTo="English" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+        </attachment>
+        <attachment name="conditionAttachmentEnglishG2" attachTo="English" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
             <option name="turns" value="11"/>
-        </attatchment>
-        <attatchment name="triggerAttachmentEnglishGold2" attatchTo="English" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+        </attachment>
+        <attachment name="triggerAttachmentEnglishGold2" attachTo="English" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentEnglishG2"/>
             <option name="when" value="before:EnglishPlace"/>
             <option name="resource" value="PUs"/>
             <option name="resourceCount" value="100"/>
             <option name="notification" value="EnglishGold2"/>
             <option name="uses" value="1"/>
-        </attatchment>
-        <attatchment name="conditionAttachmentSpanishF1" attatchTo="Spanish" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+        </attachment>
+        <attachment name="conditionAttachmentSpanishF1" attachTo="Spanish" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
             <option name="turns" value="3"/>
-        </attatchment>
-        <attatchment name="triggerAttachmentSpanishFleet1" attatchTo="Spanish" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+        </attachment>
+        <attachment name="triggerAttachmentSpanishFleet1" attachTo="Spanish" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentSpanishF1"/>
             <option name="when" value="before:SpanishPlace"/>
             <option name="placement" value="3:SZ42:Galleon"/>
             <option name="placement" value="1:SZ42:Frigate"/>
             <option name="notification" value="SpanishFleet1"/>
             <option name="uses" value="1"/>
-        </attatchment>
-        <attatchment name="conditionAttachmentSpanishF2" attatchTo="Spanish" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+        </attachment>
+        <attachment name="conditionAttachmentSpanishF2" attachTo="Spanish" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
             <option name="turns" value="6"/>
-        </attatchment>
-        <attatchment name="triggerAttachmentSpanishFleet2" attatchTo="Spanish" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+        </attachment>
+        <attachment name="triggerAttachmentSpanishFleet2" attachTo="Spanish" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentSpanishF2"/>
             <option name="when" value="before:SpanishPlace"/>
             <option name="placement" value="4:SZ42:Galleon"/>
             <option name="placement" value="2:SZ42:Frigate"/>
             <option name="notification" value="SpanishFleet2"/>
             <option name="uses" value="1"/>
-        </attatchment>
-        <attatchment name="conditionAttachmentSpanishF3" attatchTo="Spanish" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+        </attachment>
+        <attachment name="conditionAttachmentSpanishF3" attachTo="Spanish" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
             <option name="turns" value="9"/>
-        </attatchment>
-        <attatchment name="triggerAttachmentSpanishFleet3" attatchTo="Spanish" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+        </attachment>
+        <attachment name="triggerAttachmentSpanishFleet3" attachTo="Spanish" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentSpanishF3"/>
             <option name="when" value="before:SpanishPlace"/>
             <option name="placement" value="5:SZ42:Galleon"/>
@@ -2786,11 +2786,11 @@
             <option name="placement" value="1:SZ42:Battleship"/>
             <option name="notification" value="SpanishFleet3"/>
             <option name="uses" value="1"/>
-        </attatchment>
-        <attatchment name="conditionAttachmentSpanishF4" attatchTo="Spanish" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+        </attachment>
+        <attachment name="conditionAttachmentSpanishF4" attachTo="Spanish" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
             <option name="turns" value="12"/>
-        </attatchment>
-        <attatchment name="triggerAttachmentSpanishFleet4" attatchTo="Spanish" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+        </attachment>
+        <attachment name="triggerAttachmentSpanishFleet4" attachTo="Spanish" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentSpanishF4"/>
             <option name="when" value="before:SpanishPlace"/>
             <option name="placement" value="6:SZ42:Galleon"/>
@@ -2799,84 +2799,84 @@
             <option name="placement" value="1:SZ42:Admiral"/>
             <option name="notification" value="SpanishFleet4"/>
             <option name="uses" value="1"/>
-        </attatchment>
-        <attatchment name="conditionAttachmentSpanishT1" attatchTo="Spanish" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+        </attachment>
+        <attachment name="conditionAttachmentSpanishT1" attachTo="Spanish" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
             <option name="turns" value="5"/>
-        </attatchment>
-        <attatchment name="triggerAttachmentSpanishTroops1" attatchTo="Spanish" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+        </attachment>
+        <attachment name="triggerAttachmentSpanishTroops1" attachTo="Spanish" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentSpanishT1"/>
             <option name="when" value="before:SpanishPlace"/>
             <option name="placement" value="6:Mexico City:Irregular"/>
             <option name="notification" value="SpanishTroops1"/>
             <option name="uses" value="1"/>
-        </attatchment>
-        <attatchment name="conditionAttachmentSpanishG1" attatchTo="Spanish" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+        </attachment>
+        <attachment name="conditionAttachmentSpanishG1" attachTo="Spanish" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
             <option name="turns" value="8"/>
-        </attatchment>
-        <attatchment name="triggerAttachmentSpanishGold1" attatchTo="Spanish" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+        </attachment>
+        <attachment name="triggerAttachmentSpanishGold1" attachTo="Spanish" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentSpanishG1"/>
             <option name="when" value="before:SpanishPlace"/>
             <option name="resource" value="PUs"/>
             <option name="resourceCount" value="50"/>
             <option name="notification" value="SpanishGold1"/>
             <option name="uses" value="1"/>
-        </attatchment>
-        <attatchment name="conditionAttachmentSpanishG2" attatchTo="Spanish" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+        </attachment>
+        <attachment name="conditionAttachmentSpanishG2" attachTo="Spanish" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
             <option name="turns" value="11"/>
-        </attatchment>
-        <attatchment name="triggerAttachmentSpanishGold2" attatchTo="Spanish" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+        </attachment>
+        <attachment name="triggerAttachmentSpanishGold2" attachTo="Spanish" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentSpanishG2"/>
             <option name="when" value="before:SpanishPlace"/>
             <option name="resource" value="PUs"/>
             <option name="resourceCount" value="100"/>
             <option name="notification" value="SpanishGold2"/>
             <option name="uses" value="1"/>
-        </attatchment>
-        <attatchment name="conditionAttachmentDutchF1" attatchTo="Dutch" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+        </attachment>
+        <attachment name="conditionAttachmentDutchF1" attachTo="Dutch" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
             <option name="turns" value="3"/>
-        </attatchment>
-        <attatchment name="triggerAttachmentDutchFleet1" attatchTo="Dutch" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+        </attachment>
+        <attachment name="triggerAttachmentDutchFleet1" attachTo="Dutch" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentDutchF1"/>
             <option name="when" value="before:DutchPlace"/>
             <option name="placement" value="3:SZ86:Flute"/>
             <option name="notification" value="DutchFleet1"/>
             <option name="uses" value="1"/>
-        </attatchment>
-        <attatchment name="conditionAttachmentDutchF2" attatchTo="Dutch" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+        </attachment>
+        <attachment name="conditionAttachmentDutchF2" attachTo="Dutch" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
             <option name="turns" value="6"/>
-        </attatchment>
-        <attatchment name="triggerAttachmentDutchFleet2" attatchTo="Dutch" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+        </attachment>
+        <attachment name="triggerAttachmentDutchFleet2" attachTo="Dutch" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentDutchF2"/>
             <option name="when" value="before:DutchPlace"/>
             <option name="placement" value="5:SZ86:Flute"/>
             <option name="notification" value="DutchFleet2"/>
             <option name="uses" value="1"/>
-        </attatchment>
-        <attatchment name="conditionAttachmentDutchF3" attatchTo="Dutch" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+        </attachment>
+        <attachment name="conditionAttachmentDutchF3" attachTo="Dutch" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
             <option name="turns" value="9"/>
-        </attatchment>
-        <attatchment name="triggerAttachmentDutchFleet3" attatchTo="Dutch" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+        </attachment>
+        <attachment name="triggerAttachmentDutchFleet3" attachTo="Dutch" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentDutchF3"/>
             <option name="when" value="before:DutchPlace"/>
             <option name="placement" value="7:SZ86:Flute"/>
             <option name="notification" value="DutchFleet3"/>
             <option name="uses" value="1"/>
-        </attatchment>
-        <attatchment name="conditionAttachmentDutchF4" attatchTo="Dutch" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+        </attachment>
+        <attachment name="conditionAttachmentDutchF4" attachTo="Dutch" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
             <option name="turns" value="12"/>
-        </attatchment>
-        <attatchment name="triggerAttachmentDutchFleet4" attatchTo="Dutch" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+        </attachment>
+        <attachment name="triggerAttachmentDutchFleet4" attachTo="Dutch" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentDutchF4"/>
             <option name="when" value="before:DutchPlace"/>
             <option name="placement" value="9:SZ86:Flute"/>
             <option name="placement" value="1:SZ86:Admiral"/>
             <option name="notification" value="DutchFleet4"/>
             <option name="uses" value="1"/>
-        </attatchment>
-        <attatchment name="conditionAttachmentDutchT1" attatchTo="Dutch" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+        </attachment>
+        <attachment name="conditionAttachmentDutchT1" attachTo="Dutch" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
             <option name="turns" value="5"/>
-        </attatchment>
-        <attatchment name="triggerAttachmentDutchTroops1" attatchTo="Dutch" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+        </attachment>
+        <attachment name="triggerAttachmentDutchTroops1" attachTo="Dutch" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentDutchT1"/>
             <option name="when" value="before:DutchPlace"/>
             <option name="placement" value="2:Suriname:Infantry"/>
@@ -2884,55 +2884,55 @@
             <option name="placement" value="2:SZ85:Flute"/>
             <option name="notification" value="DutchTroops1"/>
             <option name="uses" value="1"/>
-        </attatchment>
-        <attatchment name="conditionAttachmentDutchG1" attatchTo="Dutch" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+        </attachment>
+        <attachment name="conditionAttachmentDutchG1" attachTo="Dutch" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
             <option name="turns" value="8"/>
-        </attatchment>
-        <attatchment name="triggerAttachmentDutchGold1" attatchTo="Dutch" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+        </attachment>
+        <attachment name="triggerAttachmentDutchGold1" attachTo="Dutch" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentDutchG1"/>
             <option name="when" value="before:DutchPlace"/>
             <option name="resource" value="PUs"/>
             <option name="resourceCount" value="50"/>
             <option name="notification" value="DutchGold1"/>
             <option name="uses" value="1"/>
-        </attatchment>
-        <attatchment name="conditionAttachmentDutchG2" attatchTo="Dutch" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+        </attachment>
+        <attachment name="conditionAttachmentDutchG2" attachTo="Dutch" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
             <option name="turns" value="11"/>
-        </attatchment>
-        <attatchment name="triggerAttachmentDutchGold2" attatchTo="Dutch" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+        </attachment>
+        <attachment name="triggerAttachmentDutchGold2" attachTo="Dutch" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentDutchG2"/>
             <option name="when" value="before:DutchPlace"/>
             <option name="resource" value="PUs"/>
             <option name="resourceCount" value="100"/>
             <option name="notification" value="DutchGold2"/>
             <option name="uses" value="1"/>
-        </attatchment>
-        <attatchment name="conditionAttachmentDanishF1" attatchTo="Danish" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+        </attachment>
+        <attachment name="conditionAttachmentDanishF1" attachTo="Danish" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
             <option name="turns" value="3"/>
-        </attatchment>
-        <attatchment name="triggerAttachmentDanishFleet1" attatchTo="Danish" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+        </attachment>
+        <attachment name="triggerAttachmentDanishFleet1" attachTo="Danish" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentDanishF1"/>
             <option name="when" value="before:DanishPlace"/>
             <option name="placement" value="2:SZ44:Corvette"/>
             <option name="placement" value="1:SZ44:Frigate"/>
             <option name="notification" value="DanishFleet1"/>
             <option name="uses" value="1"/>
-        </attatchment>
-        <attatchment name="conditionAttachmentDanishF2" attatchTo="Danish" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+        </attachment>
+        <attachment name="conditionAttachmentDanishF2" attachTo="Danish" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
             <option name="turns" value="6"/>
-        </attatchment>
-        <attatchment name="triggerAttachmentDanishFleet2" attatchTo="Danish" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+        </attachment>
+        <attachment name="triggerAttachmentDanishFleet2" attachTo="Danish" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentDanishF2"/>
             <option name="when" value="before:DanishPlace"/>
             <option name="placement" value="3:SZ44:Corvette"/>
             <option name="placement" value="2:SZ44:Frigate"/>
             <option name="notification" value="DanishFleet2"/>
             <option name="uses" value="1"/>
-        </attatchment>
-        <attatchment name="conditionAttachmentDanishF3" attatchTo="Danish" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+        </attachment>
+        <attachment name="conditionAttachmentDanishF3" attachTo="Danish" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
             <option name="turns" value="9"/>
-        </attatchment>
-        <attatchment name="triggerAttachmentDanishFleet3" attatchTo="Danish" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+        </attachment>
+        <attachment name="triggerAttachmentDanishFleet3" attachTo="Danish" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentDanishF3"/>
             <option name="when" value="before:DanishPlace"/>
             <option name="placement" value="4:SZ44:Corvette"/>
@@ -2940,11 +2940,11 @@
             <option name="placement" value="1:SZ44:Battleship"/>
             <option name="notification" value="DanishFleet3"/>
             <option name="uses" value="1"/>
-        </attatchment>
-        <attatchment name="conditionAttachmentDanishF4" attatchTo="Danish" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+        </attachment>
+        <attachment name="conditionAttachmentDanishF4" attachTo="Danish" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
             <option name="turns" value="12"/>
-        </attatchment>
-        <attatchment name="triggerAttachmentDanishFleet4" attatchTo="Danish" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+        </attachment>
+        <attachment name="triggerAttachmentDanishFleet4" attachTo="Danish" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentDanishF4"/>
             <option name="when" value="before:DanishPlace"/>
             <option name="placement" value="5:SZ44:Corvette"/>
@@ -2953,66 +2953,66 @@
             <option name="placement" value="1:SZ44:Admiral"/>
             <option name="notification" value="DanishFleet4"/>
             <option name="uses" value="1"/>
-        </attatchment>
-        <attatchment name="conditionAttachmentDanishT1" attatchTo="Danish" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+        </attachment>
+        <attachment name="conditionAttachmentDanishT1" attachTo="Danish" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
             <option name="turns" value="5"/>
-        </attatchment>
-        <attatchment name="triggerAttachmentDanishTroops1" attatchTo="Danish" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+        </attachment>
+        <attachment name="triggerAttachmentDanishTroops1" attachTo="Danish" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentDanishT1"/>
             <option name="when" value="before:DanishPlace"/>
             <option name="placement" value="1:Danish West Indies:General"/>
             <option name="placement" value="1:SZ80:Corvette"/>
             <option name="notification" value="DanishTroops1"/>
             <option name="uses" value="1"/>
-        </attatchment>
-        <attatchment name="conditionAttachmentDanishG1" attatchTo="Danish" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+        </attachment>
+        <attachment name="conditionAttachmentDanishG1" attachTo="Danish" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
             <option name="turns" value="8"/>
-        </attatchment>
-        <attatchment name="triggerAttachmentDanishGold1" attatchTo="Danish" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+        </attachment>
+        <attachment name="triggerAttachmentDanishGold1" attachTo="Danish" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentDanishG1"/>
             <option name="when" value="before:DanishPlace"/>
             <option name="resource" value="PUs"/>
             <option name="resourceCount" value="50"/>
             <option name="notification" value="DanishGold1"/>
             <option name="uses" value="1"/>
-        </attatchment>
-        <attatchment name="conditionAttachmentDanishG2" attatchTo="Danish" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+        </attachment>
+        <attachment name="conditionAttachmentDanishG2" attachTo="Danish" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
             <option name="turns" value="11"/>
-        </attatchment>
-        <attatchment name="triggerAttachmentDanishGold2" attatchTo="Danish" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+        </attachment>
+        <attachment name="triggerAttachmentDanishGold2" attachTo="Danish" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentDanishG2"/>
             <option name="when" value="before:DanishPlace"/>
             <option name="resource" value="PUs"/>
             <option name="resourceCount" value="100"/>
             <option name="notification" value="DanishGold2"/>
             <option name="uses" value="1"/>
-        </attatchment>
-        <attatchment name="conditionAttachmentSwedishF1" attatchTo="Swedish" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+        </attachment>
+        <attachment name="conditionAttachmentSwedishF1" attachTo="Swedish" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
             <option name="turns" value="3"/>
-        </attatchment>
-        <attatchment name="triggerAttachmentSwedishFleet1" attatchTo="Swedish" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+        </attachment>
+        <attachment name="triggerAttachmentSwedishFleet1" attachTo="Swedish" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentSwedishF1"/>
             <option name="when" value="before:SwedishPlace"/>
             <option name="placement" value="2:SZ55:Corvette"/>
             <option name="placement" value="1:SZ55:Frigate"/>
             <option name="notification" value="SwedishFleet1"/>
             <option name="uses" value="1"/>
-        </attatchment>
-        <attatchment name="conditionAttachmentSwedishF2" attatchTo="Swedish" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+        </attachment>
+        <attachment name="conditionAttachmentSwedishF2" attachTo="Swedish" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
             <option name="turns" value="6"/>
-        </attatchment>
-        <attatchment name="triggerAttachmentSwedishFleet2" attatchTo="Swedish" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+        </attachment>
+        <attachment name="triggerAttachmentSwedishFleet2" attachTo="Swedish" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentSwedishF2"/>
             <option name="when" value="before:SwedishPlace"/>
             <option name="placement" value="3:SZ55:Corvette"/>
             <option name="placement" value="2:SZ55:Frigate"/>
             <option name="notification" value="SwedishFleet2"/>
             <option name="uses" value="1"/>
-        </attatchment>
-        <attatchment name="conditionAttachmentSwedishF3" attatchTo="Swedish" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+        </attachment>
+        <attachment name="conditionAttachmentSwedishF3" attachTo="Swedish" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
             <option name="turns" value="9"/>
-        </attatchment>
-        <attatchment name="triggerAttachmentSwedishFleet3" attatchTo="Swedish" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+        </attachment>
+        <attachment name="triggerAttachmentSwedishFleet3" attachTo="Swedish" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentSwedishF3"/>
             <option name="when" value="before:SwedishPlace"/>
             <option name="placement" value="4:SZ55:Corvette"/>
@@ -3020,11 +3020,11 @@
             <option name="placement" value="1:SZ55:Battleship"/>
             <option name="notification" value="SwedishFleet3"/>
             <option name="uses" value="1"/>
-        </attatchment>
-        <attatchment name="conditionAttachmentSwedishF4" attatchTo="Swedish" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+        </attachment>
+        <attachment name="conditionAttachmentSwedishF4" attachTo="Swedish" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
             <option name="turns" value="12"/>
-        </attatchment>
-        <attatchment name="triggerAttachmentSwedishFleet4" attatchTo="Swedish" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+        </attachment>
+        <attachment name="triggerAttachmentSwedishFleet4" attachTo="Swedish" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentSwedishF4"/>
             <option name="when" value="before:SwedishPlace"/>
             <option name="placement" value="5:SZ55:Corvette"/>
@@ -3033,65 +3033,65 @@
             <option name="placement" value="1:SZ55:Admiral"/>
             <option name="notification" value="SwedishFleet4"/>
             <option name="uses" value="1"/>
-        </attatchment>
-        <attatchment name="conditionAttachmentSwedishT1" attatchTo="Swedish" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+        </attachment>
+        <attachment name="conditionAttachmentSwedishT1" attachTo="Swedish" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
             <option name="turns" value="5"/>
-        </attatchment>
-        <attatchment name="triggerAttachmentSwedishTroops1" attatchTo="Swedish" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+        </attachment>
+        <attachment name="triggerAttachmentSwedishTroops1" attachTo="Swedish" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentSwedishT1"/>
             <option name="when" value="before:SwedishPlace"/>
             <option name="placement" value="1:Swedish West Indies:General"/>
             <option name="placement" value="1:SZ80:Corvette"/>
             <option name="notification" value="SwedishTroops1"/>
             <option name="uses" value="1"/>
-        </attatchment>
-        <attatchment name="conditionAttachmentSwedishG1" attatchTo="Swedish" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+        </attachment>
+        <attachment name="conditionAttachmentSwedishG1" attachTo="Swedish" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
             <option name="turns" value="8"/>
-        </attatchment>
-        <attatchment name="triggerAttachmentSwedishGold1" attatchTo="Swedish" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+        </attachment>
+        <attachment name="triggerAttachmentSwedishGold1" attachTo="Swedish" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentSwedishG1"/>
             <option name="when" value="before:SwedishPlace"/>
             <option name="resource" value="PUs"/>
             <option name="resourceCount" value="50"/>
             <option name="notification" value="SwedishGold1"/>
             <option name="uses" value="1"/>
-        </attatchment>
-        <attatchment name="conditionAttachmentSwedishG2" attatchTo="Swedish" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+        </attachment>
+        <attachment name="conditionAttachmentSwedishG2" attachTo="Swedish" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
             <option name="turns" value="11"/>
-        </attatchment>
-        <attatchment name="triggerAttachmentSwedishGold2" attatchTo="Swedish" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+        </attachment>
+        <attachment name="triggerAttachmentSwedishGold2" attachTo="Swedish" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentSwedishG2"/>
             <option name="when" value="before:SwedishPlace"/>
             <option name="resource" value="PUs"/>
             <option name="resourceCount" value="100"/>
             <option name="notification" value="SwedishGold2"/>
             <option name="uses" value="1"/>
-        </attatchment>
-        <attatchment name="conditionAttachmentSaveDanish" attatchTo="Danish" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+        </attachment>
+        <attachment name="conditionAttachmentSaveDanish" attachTo="Danish" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
             <option name="directExclusionTerritories" value="1:Danish West Indies"/>
             <option name="turns" value="1-12"/>
-        </attatchment>
-        <attatchment name="triggerAttachmentSaveDanish" attatchTo="Danish" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+        </attachment>
+        <attachment name="triggerAttachmentSaveDanish" attachTo="Danish" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentSaveDanish"/>
             <option name="when" value="after:DanishPurchase"/>
             <option name="placement" value="7:Danish West Indies:Infantry"/>
             <option name="placement" value="7:SZ80:Corvette"/>
             <option name="notification" value="DanishTroops2"/>
             <option name="uses" value="12"/>
-        </attatchment>
-        <attatchment name="conditionAttachmentSaveSwedish" attatchTo="Swedish" javaClass="games.strategy.triplea.attatchments.RulesAttachment" type="player">
+        </attachment>
+        <attachment name="conditionAttachmentSaveSwedish" attachTo="Swedish" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
             <option name="directExclusionTerritories" value="1:Swedish West Indies"/>
             <option name="turns" value="1-12"/>
-        </attatchment>
-        <attatchment name="triggerAttachmentSaveSwedish" attatchTo="Swedish" javaClass="games.strategy.triplea.attatchments.TriggerAttachment" type="player">
+        </attachment>
+        <attachment name="triggerAttachmentSaveSwedish" attachTo="Swedish" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentSaveSwedish"/>
             <option name="when" value="after:SwedishPurchase"/>
             <option name="placement" value="7:Swedish West Indies:Infantry"/>
             <option name="placement" value="7:SZ80:Corvette"/>
             <option name="notification" value="SwedishTroops2"/>
             <option name="uses" value="12"/>
-        </attatchment>
-    </attatchmentList>
+        </attachment>
+    </attachmentList>
     <initialize>
         <ownerInitialize>
             <territoryOwner territory="Abaco" owner="AI-Indians"/>
