@@ -3817,7 +3817,7 @@
         </property>
         <property name="AI-Indians bid" value="0" editable="false">
         </property>
-        <property name="Naval Bombard Casualties Return Fire Restricted" value="false" editable="false">
+        <property name="Naval Bombard Casualties Return Fire" value="false" editable="false">
             <boolean/>
         </property>
         <property name="Shore Bombard Per Ground Unit Restricted" value="true" editable="false">
