@@ -2595,7 +2595,7 @@
             <option name="players" value="French:English:Dutch:Spanish:Danish:Swedish"/>
         </attachment>
         <attachment name="conditionAttachmentFrenchF1" attachTo="French" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-            <option name="turns" value="3"/>
+            <option name="rounds" value="3"/>
         </attachment>
         <attachment name="triggerAttachmentFrenchFleet1" attachTo="French" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentFrenchF1"/>
@@ -2606,7 +2606,7 @@
             <option name="uses" value="1"/>
         </attachment>
         <attachment name="conditionAttachmentFrenchF2" attachTo="French" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-            <option name="turns" value="6"/>
+            <option name="rounds" value="6"/>
         </attachment>
         <attachment name="triggerAttachmentFrenchFleet2" attachTo="French" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentFrenchF2"/>
@@ -2617,7 +2617,7 @@
             <option name="uses" value="1"/>
         </attachment>
         <attachment name="conditionAttachmentFrenchF3" attachTo="French" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-            <option name="turns" value="9"/>
+            <option name="rounds" value="9"/>
         </attachment>
         <attachment name="triggerAttachmentFrenchFleet3" attachTo="French" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentFrenchF3"/>
@@ -2629,7 +2629,7 @@
             <option name="uses" value="1"/>
         </attachment>
         <attachment name="conditionAttachmentFrenchF4" attachTo="French" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-            <option name="turns" value="12"/>
+            <option name="rounds" value="12"/>
         </attachment>
         <attachment name="triggerAttachmentFrenchFleet4" attachTo="French" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentFrenchF4"/>
@@ -2642,7 +2642,7 @@
             <option name="uses" value="1"/>
         </attachment>
         <attachment name="conditionAttachmentFrenchT1" attachTo="French" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-            <option name="turns" value="5"/>
+            <option name="rounds" value="5"/>
         </attachment>
         <attachment name="triggerAttachmentFrenchTroops1" attachTo="French" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentFrenchT1"/>
@@ -2653,7 +2653,7 @@
             <option name="uses" value="1"/>
         </attachment>
         <attachment name="conditionAttachmentFrenchG1" attachTo="French" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-            <option name="turns" value="8"/>
+            <option name="rounds" value="8"/>
         </attachment>
         <attachment name="triggerAttachmentFrenchGold1" attachTo="French" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentFrenchG1"/>
@@ -2664,7 +2664,7 @@
             <option name="uses" value="1"/>
         </attachment>
         <attachment name="conditionAttachmentFrenchG2" attachTo="French" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-            <option name="turns" value="11"/>
+            <option name="rounds" value="11"/>
         </attachment>
         <attachment name="triggerAttachmentFrenchGold2" attachTo="French" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentFrenchG2"/>
@@ -2675,7 +2675,7 @@
             <option name="uses" value="1"/>
         </attachment>
         <attachment name="conditionAttachmentEnglishF1" attachTo="English" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-            <option name="turns" value="3"/>
+            <option name="rounds" value="3"/>
         </attachment>
         <attachment name="triggerAttachmentEnglishFleet1" attachTo="English" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentEnglishF1"/>
@@ -2686,7 +2686,7 @@
             <option name="uses" value="1"/>
         </attachment>
         <attachment name="conditionAttachmentEnglishF2" attachTo="English" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-            <option name="turns" value="6"/>
+            <option name="rounds" value="6"/>
         </attachment>
         <attachment name="triggerAttachmentEnglishFleet2" attachTo="English" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentEnglishF2"/>
@@ -2697,7 +2697,7 @@
             <option name="uses" value="1"/>
         </attachment>
         <attachment name="conditionAttachmentEnglishF3" attachTo="English" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-            <option name="turns" value="9"/>
+            <option name="rounds" value="9"/>
         </attachment>
         <attachment name="triggerAttachmentEnglishFleet3" attachTo="English" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentEnglishF3"/>
@@ -2709,7 +2709,7 @@
             <option name="uses" value="1"/>
         </attachment>
         <attachment name="conditionAttachmentEnglishF4" attachTo="English" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-            <option name="turns" value="12"/>
+            <option name="rounds" value="12"/>
         </attachment>
         <attachment name="triggerAttachmentEnglishFleet4" attachTo="English" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentEnglishF4"/>
@@ -2722,7 +2722,7 @@
             <option name="uses" value="1"/>
         </attachment>
         <attachment name="conditionAttachmentEnglishT1" attachTo="English" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-            <option name="turns" value="5"/>
+            <option name="rounds" value="5"/>
         </attachment>
         <attachment name="triggerAttachmentEnglishTroops1" attachTo="English" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentEnglishT1"/>
@@ -2732,7 +2732,7 @@
             <option name="uses" value="1"/>
         </attachment>
         <attachment name="conditionAttachmentEnglishG1" attachTo="English" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-            <option name="turns" value="8"/>
+            <option name="rounds" value="8"/>
         </attachment>
         <attachment name="triggerAttachmentEnglishGold1" attachTo="English" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentEnglishG1"/>
@@ -2743,7 +2743,7 @@
             <option name="uses" value="1"/>
         </attachment>
         <attachment name="conditionAttachmentEnglishG2" attachTo="English" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-            <option name="turns" value="11"/>
+            <option name="rounds" value="11"/>
         </attachment>
         <attachment name="triggerAttachmentEnglishGold2" attachTo="English" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentEnglishG2"/>
@@ -2754,7 +2754,7 @@
             <option name="uses" value="1"/>
         </attachment>
         <attachment name="conditionAttachmentSpanishF1" attachTo="Spanish" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-            <option name="turns" value="3"/>
+            <option name="rounds" value="3"/>
         </attachment>
         <attachment name="triggerAttachmentSpanishFleet1" attachTo="Spanish" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentSpanishF1"/>
@@ -2765,7 +2765,7 @@
             <option name="uses" value="1"/>
         </attachment>
         <attachment name="conditionAttachmentSpanishF2" attachTo="Spanish" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-            <option name="turns" value="6"/>
+            <option name="rounds" value="6"/>
         </attachment>
         <attachment name="triggerAttachmentSpanishFleet2" attachTo="Spanish" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentSpanishF2"/>
@@ -2776,7 +2776,7 @@
             <option name="uses" value="1"/>
         </attachment>
         <attachment name="conditionAttachmentSpanishF3" attachTo="Spanish" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-            <option name="turns" value="9"/>
+            <option name="rounds" value="9"/>
         </attachment>
         <attachment name="triggerAttachmentSpanishFleet3" attachTo="Spanish" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentSpanishF3"/>
@@ -2788,7 +2788,7 @@
             <option name="uses" value="1"/>
         </attachment>
         <attachment name="conditionAttachmentSpanishF4" attachTo="Spanish" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-            <option name="turns" value="12"/>
+            <option name="rounds" value="12"/>
         </attachment>
         <attachment name="triggerAttachmentSpanishFleet4" attachTo="Spanish" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentSpanishF4"/>
@@ -2801,7 +2801,7 @@
             <option name="uses" value="1"/>
         </attachment>
         <attachment name="conditionAttachmentSpanishT1" attachTo="Spanish" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-            <option name="turns" value="5"/>
+            <option name="rounds" value="5"/>
         </attachment>
         <attachment name="triggerAttachmentSpanishTroops1" attachTo="Spanish" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentSpanishT1"/>
@@ -2811,7 +2811,7 @@
             <option name="uses" value="1"/>
         </attachment>
         <attachment name="conditionAttachmentSpanishG1" attachTo="Spanish" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-            <option name="turns" value="8"/>
+            <option name="rounds" value="8"/>
         </attachment>
         <attachment name="triggerAttachmentSpanishGold1" attachTo="Spanish" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentSpanishG1"/>
@@ -2822,7 +2822,7 @@
             <option name="uses" value="1"/>
         </attachment>
         <attachment name="conditionAttachmentSpanishG2" attachTo="Spanish" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-            <option name="turns" value="11"/>
+            <option name="rounds" value="11"/>
         </attachment>
         <attachment name="triggerAttachmentSpanishGold2" attachTo="Spanish" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentSpanishG2"/>
@@ -2833,7 +2833,7 @@
             <option name="uses" value="1"/>
         </attachment>
         <attachment name="conditionAttachmentDutchF1" attachTo="Dutch" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-            <option name="turns" value="3"/>
+            <option name="rounds" value="3"/>
         </attachment>
         <attachment name="triggerAttachmentDutchFleet1" attachTo="Dutch" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentDutchF1"/>
@@ -2843,7 +2843,7 @@
             <option name="uses" value="1"/>
         </attachment>
         <attachment name="conditionAttachmentDutchF2" attachTo="Dutch" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-            <option name="turns" value="6"/>
+            <option name="rounds" value="6"/>
         </attachment>
         <attachment name="triggerAttachmentDutchFleet2" attachTo="Dutch" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentDutchF2"/>
@@ -2853,7 +2853,7 @@
             <option name="uses" value="1"/>
         </attachment>
         <attachment name="conditionAttachmentDutchF3" attachTo="Dutch" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-            <option name="turns" value="9"/>
+            <option name="rounds" value="9"/>
         </attachment>
         <attachment name="triggerAttachmentDutchFleet3" attachTo="Dutch" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentDutchF3"/>
@@ -2863,7 +2863,7 @@
             <option name="uses" value="1"/>
         </attachment>
         <attachment name="conditionAttachmentDutchF4" attachTo="Dutch" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-            <option name="turns" value="12"/>
+            <option name="rounds" value="12"/>
         </attachment>
         <attachment name="triggerAttachmentDutchFleet4" attachTo="Dutch" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentDutchF4"/>
@@ -2874,7 +2874,7 @@
             <option name="uses" value="1"/>
         </attachment>
         <attachment name="conditionAttachmentDutchT1" attachTo="Dutch" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-            <option name="turns" value="5"/>
+            <option name="rounds" value="5"/>
         </attachment>
         <attachment name="triggerAttachmentDutchTroops1" attachTo="Dutch" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentDutchT1"/>
@@ -2886,7 +2886,7 @@
             <option name="uses" value="1"/>
         </attachment>
         <attachment name="conditionAttachmentDutchG1" attachTo="Dutch" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-            <option name="turns" value="8"/>
+            <option name="rounds" value="8"/>
         </attachment>
         <attachment name="triggerAttachmentDutchGold1" attachTo="Dutch" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentDutchG1"/>
@@ -2897,7 +2897,7 @@
             <option name="uses" value="1"/>
         </attachment>
         <attachment name="conditionAttachmentDutchG2" attachTo="Dutch" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-            <option name="turns" value="11"/>
+            <option name="rounds" value="11"/>
         </attachment>
         <attachment name="triggerAttachmentDutchGold2" attachTo="Dutch" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentDutchG2"/>
@@ -2908,7 +2908,7 @@
             <option name="uses" value="1"/>
         </attachment>
         <attachment name="conditionAttachmentDanishF1" attachTo="Danish" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-            <option name="turns" value="3"/>
+            <option name="rounds" value="3"/>
         </attachment>
         <attachment name="triggerAttachmentDanishFleet1" attachTo="Danish" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentDanishF1"/>
@@ -2919,7 +2919,7 @@
             <option name="uses" value="1"/>
         </attachment>
         <attachment name="conditionAttachmentDanishF2" attachTo="Danish" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-            <option name="turns" value="6"/>
+            <option name="rounds" value="6"/>
         </attachment>
         <attachment name="triggerAttachmentDanishFleet2" attachTo="Danish" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentDanishF2"/>
@@ -2930,7 +2930,7 @@
             <option name="uses" value="1"/>
         </attachment>
         <attachment name="conditionAttachmentDanishF3" attachTo="Danish" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-            <option name="turns" value="9"/>
+            <option name="rounds" value="9"/>
         </attachment>
         <attachment name="triggerAttachmentDanishFleet3" attachTo="Danish" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentDanishF3"/>
@@ -2942,7 +2942,7 @@
             <option name="uses" value="1"/>
         </attachment>
         <attachment name="conditionAttachmentDanishF4" attachTo="Danish" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-            <option name="turns" value="12"/>
+            <option name="rounds" value="12"/>
         </attachment>
         <attachment name="triggerAttachmentDanishFleet4" attachTo="Danish" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentDanishF4"/>
@@ -2955,7 +2955,7 @@
             <option name="uses" value="1"/>
         </attachment>
         <attachment name="conditionAttachmentDanishT1" attachTo="Danish" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-            <option name="turns" value="5"/>
+            <option name="rounds" value="5"/>
         </attachment>
         <attachment name="triggerAttachmentDanishTroops1" attachTo="Danish" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentDanishT1"/>
@@ -2966,7 +2966,7 @@
             <option name="uses" value="1"/>
         </attachment>
         <attachment name="conditionAttachmentDanishG1" attachTo="Danish" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-            <option name="turns" value="8"/>
+            <option name="rounds" value="8"/>
         </attachment>
         <attachment name="triggerAttachmentDanishGold1" attachTo="Danish" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentDanishG1"/>
@@ -2977,7 +2977,7 @@
             <option name="uses" value="1"/>
         </attachment>
         <attachment name="conditionAttachmentDanishG2" attachTo="Danish" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-            <option name="turns" value="11"/>
+            <option name="rounds" value="11"/>
         </attachment>
         <attachment name="triggerAttachmentDanishGold2" attachTo="Danish" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentDanishG2"/>
@@ -2988,7 +2988,7 @@
             <option name="uses" value="1"/>
         </attachment>
         <attachment name="conditionAttachmentSwedishF1" attachTo="Swedish" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-            <option name="turns" value="3"/>
+            <option name="rounds" value="3"/>
         </attachment>
         <attachment name="triggerAttachmentSwedishFleet1" attachTo="Swedish" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentSwedishF1"/>
@@ -2999,7 +2999,7 @@
             <option name="uses" value="1"/>
         </attachment>
         <attachment name="conditionAttachmentSwedishF2" attachTo="Swedish" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-            <option name="turns" value="6"/>
+            <option name="rounds" value="6"/>
         </attachment>
         <attachment name="triggerAttachmentSwedishFleet2" attachTo="Swedish" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentSwedishF2"/>
@@ -3010,7 +3010,7 @@
             <option name="uses" value="1"/>
         </attachment>
         <attachment name="conditionAttachmentSwedishF3" attachTo="Swedish" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-            <option name="turns" value="9"/>
+            <option name="rounds" value="9"/>
         </attachment>
         <attachment name="triggerAttachmentSwedishFleet3" attachTo="Swedish" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentSwedishF3"/>
@@ -3022,7 +3022,7 @@
             <option name="uses" value="1"/>
         </attachment>
         <attachment name="conditionAttachmentSwedishF4" attachTo="Swedish" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-            <option name="turns" value="12"/>
+            <option name="rounds" value="12"/>
         </attachment>
         <attachment name="triggerAttachmentSwedishFleet4" attachTo="Swedish" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentSwedishF4"/>
@@ -3035,7 +3035,7 @@
             <option name="uses" value="1"/>
         </attachment>
         <attachment name="conditionAttachmentSwedishT1" attachTo="Swedish" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-            <option name="turns" value="5"/>
+            <option name="rounds" value="5"/>
         </attachment>
         <attachment name="triggerAttachmentSwedishTroops1" attachTo="Swedish" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentSwedishT1"/>
@@ -3046,7 +3046,7 @@
             <option name="uses" value="1"/>
         </attachment>
         <attachment name="conditionAttachmentSwedishG1" attachTo="Swedish" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-            <option name="turns" value="8"/>
+            <option name="rounds" value="8"/>
         </attachment>
         <attachment name="triggerAttachmentSwedishGold1" attachTo="Swedish" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentSwedishG1"/>
@@ -3057,7 +3057,7 @@
             <option name="uses" value="1"/>
         </attachment>
         <attachment name="conditionAttachmentSwedishG2" attachTo="Swedish" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-            <option name="turns" value="11"/>
+            <option name="rounds" value="11"/>
         </attachment>
         <attachment name="triggerAttachmentSwedishGold2" attachTo="Swedish" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentSwedishG2"/>
@@ -3069,7 +3069,7 @@
         </attachment>
         <attachment name="conditionAttachmentSaveDanish" attachTo="Danish" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
             <option name="directExclusionTerritories" value="1:Danish West Indies"/>
-            <option name="turns" value="1-12"/>
+            <option name="rounds" value="1-12"/>
         </attachment>
         <attachment name="triggerAttachmentSaveDanish" attachTo="Danish" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentSaveDanish"/>
@@ -3081,7 +3081,7 @@
         </attachment>
         <attachment name="conditionAttachmentSaveSwedish" attachTo="Swedish" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
             <option name="directExclusionTerritories" value="1:Swedish West Indies"/>
-            <option name="turns" value="1-12"/>
+            <option name="rounds" value="1-12"/>
         </attachment>
         <attachment name="triggerAttachmentSaveSwedish" attachTo="Swedish" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachmentSaveSwedish"/>
@@ -3852,13 +3852,13 @@
         <property name="SBR Victory Points" value="false" editable="false">
             <boolean/>
         </property>
-        <property name="Units repair at end of round" value="false" editable="false">
+        <property name="Units Repair Hits End Turn" value="false" editable="false">
             <boolean/>
         </property>
         <property name="AA50 Tech Model" value="false" editable="false">
             <boolean/>
         </property>
-        <property name="Units repair at beginning of round" value="true" editable="false">
+        <property name="Units Repair Hits Start Turn" value="true" editable="false">
             <boolean/>
         </property>
         <property name="Danish bid" value="0" editable="false">
