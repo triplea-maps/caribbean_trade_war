@@ -1,0 +1,6 @@
+AllianceInfo.png (105,1918)
+English.png (155,1969)
+French.png (155,1854)
+UnitList.png (4915,40)
+CTWLogoMap.png (4475,75)
+MapShip.png (4495,275) 
